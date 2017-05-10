@@ -1,0 +1,10 @@
+centos:
+yum -y update kernel
+
+debian:
+root@ddd123:/var/log# apt-cache search linux-image
+linux-image-3.16.0-4-amd64 - Linux 3.16 for 64-bit PCs
+linux-image-amd64 - Linux for 64-bit PCs (meta-package)
+linux-headers-3.16.0-4-amd64 - Header files for Linux 3.16.0-4-amd64
+linux-image-3.16.0-4-amd64-dbg - Debugging symbols for Linux 3.16.0-4-amd64
+root@ddd123:/var/log# apt-get install linux-image-3.16.0-4-amd64
